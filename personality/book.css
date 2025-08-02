@@ -1,0 +1,176 @@
+/* GENERAL */
+body{
+    cursor: url('../imgs/booksy.png'), auto;
+    background-color: rgb(186, 250, 186);
+    overflow-x: hidden;
+}
+
+
+/* STRUCTURAL */
+.abs_hold {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.main_column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.display_column{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.display_row{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+.cadet{
+    padding: 2rem;
+}
+
+
+/* UTILITY */
+
+.texty{
+    text-align: center;
+}
+
+.textual{
+    text-align: start;
+}
+
+.no_c{
+    display: none;
+}
+
+.title{
+    font-size: 4rem;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 125;
+    color: seagreen;
+}
+
+.date{
+    font-size: 1.75rem;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: seagreen;
+}
+
+.quest{
+    font-size: 2.5rem;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 125;
+    color: seagreen;
+}
+
+.ans{
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: black;
+}
+
+.review{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+.butt{
+    margin: 1rem;
+    cursor: url('../imgs/booksy.png'), auto;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: tomato;
+    text-decoration: none;
+}
+
+.butt:hover{
+    cursor: url('../imgs/booksy_wow.png'), auto;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: slateblue;
+    text-decoration: wavy;
+    text-decoration-color: slateblue;
+}
+
+.bigbutt{
+    font-size: 2rem;
+    margin: 1rem;
+    cursor: url('../imgs/booksy.png'), auto;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: tomato;
+    text-decoration: none;
+}
+
+.bigbutt:hover{
+    cursor: url('../imgs/booksy_wow.png'), auto;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: slateblue;
+    text-decoration: wavy;
+    text-decoration-color: slateblue;
+}
+
+/*
+    <weight>: Use a value from 100 to 900
+    <width>: Use a value from 100 to 125
+    <uniquifier>: Use a unique and descriptive class name
+
+.sour-gummy-<uniquifier> {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" <width>;
+}
+*/
